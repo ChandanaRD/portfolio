@@ -13,7 +13,7 @@
 </head>
 
 <body class="main-container">
-    <header class="headerContainer">
+    <header class="headerContainer" id='header'>
         <nav class="header navbar navbar-expand-md w-100">
             <div class="container-fluid d-flex justify-content-between">
                 <div class="nav-header">
@@ -61,7 +61,7 @@
         </nav>
     </header>
     <div class='body-container' id='profile'>
-        <section class='section shadow-sm' id='profile'>
+        <section class='intro-section shadow-sm' id='profile'>
             <div class='profile d-flex flex-column'>
                 <div class="profile-img">
                     <image class="profile-image" src='./assets/profilePicture.jpg'></image>
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section id='skills'>
+        <section id='skills' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-brain"></i>
                 Skills
@@ -145,7 +145,7 @@
                 </span>
             </div>
         </section>
-        <section id="education">
+        <section id="education" class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-university"></i>
                 Education
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </section>
-        <section id='experience'>
+        <section id='experience' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-building"></i>
                 Experience
@@ -183,12 +183,25 @@
                 </div>
             </div>
         </section>
-        <section id='personal-projects' class='personal-projects'>
+        <section id='personal-projects' class='personal-projects' class="content-section">
             <div class="section-sub-heading col-header">
                 <i class="fas fa-code"></i>
                 Personal projects
             </div>
             <div class="card-container">
+                <div class="logo-label-desc">
+                    <div class="logo-container">
+                        <a class="logo-img" href="http://ec2-18-191-172-75.us-east-2.compute.amazonaws.com:3001/" target="_blank">
+                            <img src="assets/checklist.png"></i>
+                        </a>
+                    </div>
+                    <div class="logo-label">
+                        Shopping expense manager
+                    </div>
+                    <div class="logo-desc">
+                        React-node.js project hosted on AWS. A single user checklist. Items can be added, ticked off the list and deleted from the list.
+                    </div>
+                </div>
                 <div class="logo-label-desc">
                     <div class="logo-container">
                         <a class="logo-img" href="https://chandanard.github.io/AirPollutionDetection/" target="_blank">
@@ -199,7 +212,7 @@
                         Air Pollution and Detection and Prediction
                     </div>
                     <div class="logo-desc">
-                        React project that takes user's current location and displays the season
+                        A project based on machine learning with Python. Logistic regression and Auto regression is used to detect and predict Air pollution
                     </div>
                 </div>
                 <div class="logo-label-desc">
@@ -212,7 +225,7 @@
                         All about F.R.I.E.N.D.S
                     </div>
                     <div class="logo-desc">
-                        React project that takes user's current location and displays the season
+                        A simple react project that randomly displays different dialogues of each character in the series Friends.
                     </div>
                 </div>
                 <div class="logo-label-desc">
@@ -230,12 +243,12 @@
                 </div>
             </div>
         </section>
-        <section id='certifications'>
+        <section id='certifications' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-certificate"></i>
                 Certifications
             </div>
-            <div class="flex-row-container section-content">
+            <div class="flex-row-container section-content logo-box">
                 <div class="logo-with-label">
                     <div class="logo-container">
                         <a class="logo" href="https://nptel.ac.in/noc/Ecertificate/?q=linkedin/noc17-cs10/NPTEL17CS1026550059FN.jpg" target="_blank">
@@ -259,12 +272,12 @@
                 </div>
             </div>
         </section>
-        <section id='publications'>
+        <section id='publications' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fab fa-leanpub"></i>
                 publications
             </div>
-            <div class="primary-text section-content d-flex">
+            <div class="primary-text section-content d-flex logo-box">
                 <div class="logo-with-label">
                     <div class="logo-container">
                         <a class="logo square" href="http://ijettjournal.org/archive/ijett-v59p238" target="_blank">
@@ -278,7 +291,7 @@
                 
             </div>
         </section>
-        <section id='interests'>
+        <section id='interests' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-chess"></i>
                 Interests
@@ -291,7 +304,7 @@
                 <span class='tags'>Mandolin</span>
             </div>
         </section>
-        <section id='achievements'>
+        <section id='achievements' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-award"></i>
                 Awards and achievements
@@ -313,7 +326,7 @@
                 </ul>
             </div>
         </section>
-        <section id='volunteerExperience'>
+        <section id='volunteerExperience' class="content-section">
             <div class="section-sub-heading section-header">
                 <i class="fas fa-hands-helping"></i>
                 Volunteer Experience

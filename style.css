@@ -168,16 +168,17 @@ a.logo:hover{
     text-align: center;
     max-width: 20rem;
     min-width: 15rem;
+    margin-bottom: 1rem;
 }
 .logo-container{
     margin-bottom : 1rem;
 }
 .square{
     border-radius: .5rem;
-    width: 10rem;
-    height: 10rem;
-    font-size: 5rem;
-    padding: 2rem 5rem;
+    /* width: 10rem; */
+    /* height: 10rem; */
+    /* font-size: 5rem; */
+    padding: 2rem 2rem;
     display: inline-table;
 }
 .inverse{
@@ -280,3 +281,29 @@ a:hover{
 .navbar-toggler-icon{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .profile {
+        padding: 0px;
+    }
+    .intro-section, .intro-section .section-sub-heading{
+      flex-direction: column;
+      flex-flow: column;
+      text-align: center;
+    }
+    .content-section,  .footerContainer .d-flex, .logo-box {
+        flex-direction: column;
+    }
+    .content-section .section-header {
+        border: none;
+    }
+    .section-content {
+        padding-left: 0;
+    }
+    /* .headerContainer {
+        visibility: hidden;
+    }
+    #header:hover{
+        visibility: visible;
+    } */
+  }
