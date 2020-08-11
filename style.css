@@ -4,10 +4,6 @@
     box-sizing: border-box;
 
 }
-a{
-    /* color: white !important;
-    text-decoration: none !important; */
-}
 
 .section-sub-heading{
     padding : 1rem 0rem;
@@ -25,9 +21,6 @@ a{
 }
 .mb-20{
     margin-bottom: 1.2rem;
-}
-.__ml-10{
-    /* margin-left: 10%; */
 }
 .main-container{
     /* background-image:url('assets/background.jpeg'); */
@@ -48,13 +41,6 @@ a{
     top: 0;
     z-index: 5;
     /* margin-bottom: 5px; */
-}
-.header{
-    /* width: 100%; */
-}
-.header .container-fluid {
-    /* display: flex;
-    justify-content: space-between; */
 }
 .body-container{
     margin-top : 5.2rem;
