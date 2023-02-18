@@ -10,87 +10,87 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/b0feb09992.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </head>
 
 <body class="main-container">
-    <header class="headerContainer" id='header'>
-        <nav class="header navbar navbar-expand-md w-100">
-            <div class="container-fluid d-flex justify-content-between">
-                <div class="nav-header">
-                    <a class="navbar-brand nav-link link-text" href="#profile"> Profile Summary</a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon "><i class="fas fa-bars"></i></span>
-                  </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="nav">
 
-                        <!-- <li class="nav-item">
-                            <a href="#certifications" class="nav-link link-text">
-                                <i class="fas fa-certificate"></i>
-                                Certifications
-                            </a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a href="#publications" class="nav-link link-text">
-                                <i class="fab fa-leanpub"></i>
-                                Publications
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#education" class="nav-link link-text">
-                                <i class="fas fa-university"></i>
-                                Education
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#personal-projects" class="nav-link link-text">
-                                <i class="fas fa-code"></i>
-                                personal projects
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#achievements" class="nav-link link-text">
-                                <i class="fas fa-award"></i>
-                                achievements
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<header id='header'>
+    <div id="header-image" class="header-image py-2"> 
+        <div class="header-content-container">
+            <span class="header-content mb-2 h1">Welcome! </span>
+            <span class="header-content h1" > I'm Chandana. </span>            
+            <span class="header-content font-weight-light h4">full-stack developer | Paper craft entusiast | Aspiring Data Scientist</span>
+        </div>
+        
+    </div>
+    
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark headerContainer">
+     <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand nav-link link-text" href="#profile"> Chandana R Deshmukh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse" id="main_nav">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#publications" class="nav-link link-text">
+                    <i class="fab fa-leanpub"></i>
+                    Publications
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#education" class="nav-link link-text">
+                    <i class="fas fa-university"></i>
+                    Education
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#personal-projects" class="nav-link link-text">
+                    <i class="fas fa-code"></i>
+                    personal projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#achievements" class="nav-link link-text">
+                    <i class="fas fa-award"></i>
+                    achievements
+                </a>
+            </li>
+        </ul>
+      </div> <!-- navbar-collapse.// -->
+     </div> <!-- container-fluid.// -->
+    </nav>
     </header>
+    
     <div class='body-container' id='profile'>
         <section class='intro-section shadow-sm' id='profile'>
             <div class='profile d-flex flex-column'>
                 <div class="profile-img">
-                    <image class="profile-image" src='./assets/profilePicture.png'></image>
+                    <image class="profile-image" src='./assets/face_crop.png'></image>
                 </div>
-                <div class="profile-img-desc">
-                    <div class="name text-secondary">
-                        Chandana R Deshmukh
-                    </div>
-                    <div class="contact-details font-weight-light text-secondary">
-                        <div>
-                            <i class="fas fa-mobile mr-10"></i> +49 176 8115 7449
+                <div class="flex-col-container">
+                    <div class='profile-desc'>
+                        <!-- <div class="section-sub-heading">
+                            summary
+                        </div> -->
+                        
+                        <div class="primary-text col-md-8 col-md-offset-2">
+                            <p >
+                                I am a crafty and creative person who loves to narrate stories through Data Visualization.
+                            </p>
+                            <p>
+                                Having worked as a full-stack developer for 3 years, with only a tiny glimpse of introduction to ML, I now want to move towards ML and Data Science. Hence, I am pursuing my master's in Computer Science specializing in Visualization and Intelligent system.
+                            </p>
                         </div>
-                        <div>
-                            <i class="fas fa-envelope"></i> deshmukh.chandana@gmail.com &nbsp;&nbsp;
-                        </div>
+                        
                     </div>
+                    
                 </div>
-            </div>
-            <div class="flex-col-container">
-                <div class='profile-desc'>
-                    <div class="section-sub-heading">
-                        summary
-                    </div>
-                    <div class="primary-text mb-20">
-                        An enthusiastic developer with a creative mind and great problem-solving skills.
-                        A fast learner with experience in Javascript and Python. 
-                        A Master's student paving my path towards Data Science.
-                    </div>
-                </div>
+
                 <div class="logo-box">
                     <div class="logo-with-label">
                         <div class="logo-container">
@@ -124,6 +124,7 @@
                     </div>                  
                 </div>
             </div>
+            
         </section>
         <section id='skills' class="content-section">
             <div class="section-sub-heading section-header">
@@ -132,7 +133,7 @@
             </div>
             <div class="primary-text section-content">
                 <span class='tags'>Python</span>
-                <span class='tags'> Javascript</span>
+                <span class='tags'> Data Visualization </span>
                 <span class='tags'>Machine Learning</span>
                 <span class='tags'>
                     Angular
@@ -156,23 +157,30 @@
                 Education
             </div>
             <div class="primary-text section-content">
-                <div class="company-name">
-                    Bachelor of Engineering - Computer Science
-                </div>
-                <div class="d-flex justify-content-between">
-                    <div class="duration">
-                        08/14 - 06/18
+                <div class="sub-section-container">
+                    <div class="company-name">
+                        Bachelor of Engineering - Computer Science
                     </div>
-                    <div class="duration">
-                        70.174%
+                    <div class="d-flex justify-content-between">
+                        <div class="duration">
+                            08/14 - 06/18
+                        </div>
+                        <div class="duration">
+                            70.174%
+                        </div>
                     </div>
                 </div>
-                <div class="company-name">
-                    Master of Science - Computer Science
-                </div>
-                <div class="d-flex justify-content-between">
-                    <div class="duration">
-                        10/21 - Present
+                <div class="mt-3">
+                    <div class="company-name">
+                        Master of Science - Computer Science
+                    </div>
+                    <div class="mt-20 justify-content-between">
+                        <div class="duration">
+                            10/21 - Present
+                        </div>
+                        <div class="description">
+                            Specializations: Visualization and Scientific computing and Intelligent Systems
+                        </div>
                     </div>
                 </div>
             </div>
@@ -183,6 +191,36 @@
                 Experience
             </div>
             <div class="section-col">
+                <div class="primary-text section-content">
+                    <div class="company-name">
+                        Sociovestix Labs - first in financial data science
+                    </div>
+                    <div class="duration">
+                        05/22 - Present
+                    </div>
+                    <div class="description">
+                        <ul class="custom-list ">
+                        <li> Working on React and FastAPI application, to verify extraction results of names and
+                            positions from websites. </li>
+                        <li> Researched performance and DB calls using GraphQL</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="primary-text section-content">
+                    <div class="company-name">
+                        Deutsches Forschungszentrum für Künstliche Intelligenz (DFKI)
+                    </div>
+                    <div class="duration">
+                        04/22 - 12/22
+                    </div>
+                    <div class="description">
+                        <ul class="custom-list ">
+                        <li> Worked on real-world spatial data, financial data and simulated data from a survey. </li>
+                        <li> Used Geopandas and Dash for visualizations including creating simple dashboards.</li>
+                        <li> Added new features and fixed bugs for the existing website in JS.</li>
+                    </ul>
+                    </div>
+                </div>
                 <div class="primary-text section-content">
                     <div class="company-name">
                         Altair Engineering India Private Limited
@@ -374,6 +412,28 @@
             <div class="section-col">
                 <div class="primary-text section-content">
                     <div class="company-name">
+                        AISEC Germany
+                    </div>
+                    <div class="duration">
+                        02/2023 - Present
+                    </div>
+                    <div class="description">
+                        Member of the Marketing Team at LC kaiserslautern 
+                    </div>
+                </div>
+                <div class="primary-text section-content">
+                    <div class="company-name">
+                        Cultural committee member
+                    </div>
+                    <div class="duration">
+                        08/2018 - 10/2020
+                    </div>
+                    <div class="description">
+                        Organised and Planned Month-end events including physical games and food options in a team at Tricon Infotech
+                    </div>
+                </div>
+                <div class="primary-text section-content">
+                    <div class="company-name">
                         Divya Deepa
                     </div>
                     <div class="duration">
@@ -397,6 +457,31 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <section id='contact' class="content-section">
+            <div class="section-sub-heading section-header">
+                <i class="fas fa-hands-helping"></i>
+                Contact
+            </div>
+            <div class="section-col">
+                <div class="profile-img-desc">
+                    <div class=" section-content">
+                        <div class="name text-secondary">
+                            Chandana R Deshmukh
+                        </div>
+                        <div class="contact-details font-weight-light text-secondary">
+                            <div>
+                                <i class="fas fa-mobile mr-10"></i> +49 176 8115 7449
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope"></i> deshmukh.chandana@gmail.com &nbsp;&nbsp;
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
         </section>
     </div>
     <footer class="footerContainer">
