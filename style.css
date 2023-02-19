@@ -72,12 +72,6 @@
 }
 .header-content{
     color: white;
-    margin: 0rem 10rem;
-    display: block;
-}
-.body-container{
-    /* margin-top : 5.2rem; */
-    /* padding: 10px; */
 }
 .profile-image{
     border-radius: 50%;
@@ -339,6 +333,9 @@ div.body-container > section:nth-of-type(even) {
       flex-direction: column;
       flex-flow: column;
       text-align: center;
+    }
+    .header-content-container{
+        margin: 1rem;
     }
     .content-section,  .footerContainer .d-flex, .logo-box {
         flex-direction: column;
